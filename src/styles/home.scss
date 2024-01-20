@@ -2,3 +2,54 @@
 
 // font-family: 'Wix Madefor Text', sans-serif;
 // font-family: 'Work Sans', sans-serif;
+
+main{
+    background: black;
+
+    >.title{
+        padding-top: 8rem;
+        color: white;
+        font-family: 'Wix Madefor Text', sans-serif;
+        text-align: center;
+
+        >h1{
+            font-size: 7rem;
+        }
+
+        >form{
+            margin-top: 2rem;
+
+            >input{
+                border-radius: 2rem;
+                padding: 1rem 5.5rem 1rem 2rem;
+                font-size: 1.2rem;
+                border: none;
+            }
+
+            >input:focus{
+                outline: none;
+            }
+
+            >button{
+                border: none;
+                padding: 1rem 2.5rem;
+                font-size: 1.2rem;
+                margin-left: -4rem;
+                border-radius: 2rem;
+                background: orange;
+            }
+        }
+    }
+
+    >.popular{
+        margin-top: 2rem;
+
+        >.popularBeginStyle{
+            color: white;
+            font-size: 2rem;
+            text-align: center;
+            transform: translateY(10px);
+            transition: 2sec;
+        }
+    }
+}

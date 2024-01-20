@@ -1,21 +1,30 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/home.scss';
+
+import waves from '../assets/waves.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
+
 const Home = () => {
   return (
     <main>
       <Header />
       <section className="title">
         <h1> PRICE MATTERS </h1>
-      </section>
-      <section className="link-container"></section>
-      <section className="search">
-        <input type="text" className="searchBar" placeholder='Type Your Product Name' />
-        <button> Search </button>
+        <form className="search">
+          <input type="text" placeholder='Type Your Product Name..' />
+          <button>Search</button>
+        </form>
       </section>
       <section className="popular">
+        <div className="popularBeginStyle">
+          <FontAwesomeIcon icon={faAnglesDown} />
+        </div>
+        <img src={waves} alt="waves" />
         <h1>Popular Searches</h1>
-        <div className="popular-cards">
+        <div className="popularCards">
           <div className="iphone15pro">
             <img src="" alt="iphone" />
             <h2>Iphone 15 pro max</h2>
