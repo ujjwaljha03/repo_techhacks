@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+
+nav {
+    background: transparent;
+    display: flex;
+    font-family: 'Wix Madefor Text', sans-serif;
+    padding-top: 1.2rem;
+
+    >.logo {
+        background: transparent;
+        width: 20%;
+        
+        >img {
+            width: 20rem;
+            height: 5rem;
+        }
+
+        >img:hover {
+            scale: 115%;
+            transition: 1.1s;
+        }
+    }
+
+    >main {
+        background: transparent;
+        width:50%;
+        display: flex;
+        justify-content:end;
+        padding: 0rem 0rem 0rem 10rem;
+
+        >.links {
+            text-decoration: none;
+            background: transparent;
+            border-radius: 4rem;
+            padding: 0.6rem 1rem 0.6rem 1rem;
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            color: black;
+        }
+
+        >.links:hover {
+            transition: 0.4s;
+        }
+    }
+
+    >.profile {
+        width: 30%;
+        background: transparent;
+        display: flex;
+        justify-content: space-around;
+        
+        >.feedback-icon{
+            margin-top: 2rem;
+            margin-right: -20rem;
+            font-size: larger;
+        }
+    }
+
+    >.profile img {
+        margin-top: 1rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 3rem;
+    }
+}
