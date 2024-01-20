@@ -53,9 +53,24 @@ main{
             }
 
             >img{
-                margin-top: 2rem;
                 width: 100%;
-                height: 1;
+            }
+        }
+
+        >.popularBegin{
+            margin-top: -1rem;
+            background: white;
+            padding-top: 3rem;
+
+            >.popularCards{
+
+                >.iphone15pro{
+
+                    >img{
+                        width: 20rem;
+                        height: 30rem;
+                    }
+                }
             }
         }
 

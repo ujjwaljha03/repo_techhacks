@@ -3,10 +3,10 @@ import Header from './Header';
 import '../styles/home.scss';
 
 import waves from '../assets/waves.png'
+import img1 from '../assets/img1.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
-import ProductDetail from './ProductDetail';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -23,42 +23,19 @@ const Home = () => {
       <section className="popular">
         <div className="division">
           <div className="popularBeginStyle">
-          <FontAwesomeIcon icon={faAnglesDown} />
-        </div>
+            <FontAwesomeIcon icon={faAnglesDown} />
+          </div>
         <img src={waves} alt="waves" />
         </div>
         <div className="popularBegin">
-          <h1>Popular Searches</h1>
+          <h1>Recent Searches</h1>
           <div className="popularCards">
             <div className="iphone15pro">
-              <img src="" alt="iphone" />
+              <img src={img1} alt="iphone" />
               <h2>Iphone 15 pro max</h2>
               <span>1TB</span>
               <span>|</span>
               <span>Titanium</span>
-              <button>Compare Price</button>
-            </div>
-            <div className="twoSmall">
-              <div className="marshal">
-                <img src="" alt="marshal"></img>
-                <h3>Marshal</h3>
-                <p>`Major IV Wireless Bluetooth On Ear Headphone with Mic $(Black)`</p>
-                <button>Compare Price</button>
-              </div>
-              <div className="jbl">
-              <img src="" alt="marshal"></img>
-                <h3>JBL</h3>
-                <img src="" alt="marshal"></img>
-                <h3>Marshal</h3>
-                <p>`Major IV Wireless Bluetooth On Ear Headphone with Mic $(Black)`</p>
-                <button>Compare Price</button>
-              </div>
-            </div>
-            <div className='Samsung Smart TV'>
-              <img src="" alt="TV"></img>
-              <h2>Samsung Smart TV</h2>
-              <p>`1m 63cm $(65") Q70A QLED 4K Smart TV`</p>
-              <button>Compare Price</button>
             </div>
           </div>
         </div>
