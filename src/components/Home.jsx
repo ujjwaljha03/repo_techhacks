@@ -1,18 +1,19 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/home.scss';
+import  Searchbar from '../Backened/Searchbar';
+
 const Home = () => {
   return (
     <main>
       <Header />
+      
       <section className="title">
         <h1> PRICE MATTERS </h1>
       </section>
-      <section className="link-container"></section>
-      <section className="search">
-        <input type="text" className="searchBar" placeholder='Type Your Product Name' />
-        <button> Search </button>
-      </section>
+      
+      <Searchbar />
+
       <section className="popular">
         <h1>Popular Searches</h1>
         <div className="FirstPart">
